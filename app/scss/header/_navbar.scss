@@ -1,0 +1,36 @@
+.navbar {
+	padding: 18px 0;
+	border-bottom: 1px solid #DDDDDD;
+
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&-right {
+		display: flex;
+		gap: 50px;
+	}
+
+	.toolbar {
+
+		display: flex;
+		gap: 25px;
+
+		.search, .login {
+			display: block;
+			width: 24px;
+			height: 24px;
+			align-self: center;
+		}
+
+		.search {
+			background: url('../images/dest/icons/search.svg') no-repeat;
+		}
+
+		.login {
+			background: url('../images/dest/icons/login.svg') no-repeat;
+		}
+	}
+}
