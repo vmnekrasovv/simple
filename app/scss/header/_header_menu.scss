@@ -9,6 +9,11 @@
 	gap: 40px;
 	flex: 1;
 
+	@media screen and (max-width: 990px) {
+		gap: 20px;
+	}
+
+
 	@media screen and (max-width: 767px) {
 
 	    position: fixed;
@@ -31,6 +36,10 @@
 		font-size: 20px;
 		color: #4C5866;
 		text-decoration: none;
+
+		@media screen and (max-width: 990px) {
+			font-size: 17px;
+		}
 
 		@media screen and (max-width: 767px) {
 			color: #fff;

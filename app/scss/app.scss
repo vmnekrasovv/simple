@@ -45,13 +45,18 @@ body.lock {
 .logo {
 	width: 140px;
 	height: 22px;
+	margin-left: 10px;
 	display: block;
 	text-decoration: none;
 	background: url('../images/dest/logo.svg') no-repeat;
+
+	@media screen and (max-width: 375px) {
+		width: 80px;
+	}
 }
 
 .button {
-	padding: 25px 90px;
+	padding: 23px 90px;
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
@@ -59,6 +64,15 @@ body.lock {
 	text-decoration: none;
 	color: #7875FE;
 	border: 1px solid #7875FE;
+
+	@media screen and (max-width: 720px) {
+		padding: 18px 60px;
+		font-size: 18px;
+	}
+
+	@media screen and (max-width: 420px) {
+		padding: 14px 40px;
+	}
 }
 
 @import 'header/header';

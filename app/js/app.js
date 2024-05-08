@@ -24,6 +24,16 @@
 			imageSrc: 'images/dest/header_bg.jpg',
 			speed: .7,
 		});*/
+
+		/*$(window).on('load resize', function(e){
+			
+			let curWidth = e.currentTarget.innerWidth;
+
+			if(curWidth <= 500){
+				$('.toolbar').appendTo('.header-menu');
+			}
+
+		});*/
 		
 	});
 })(jQuery);
