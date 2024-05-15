@@ -40,12 +40,20 @@ body.lock {
 	max-width: 1140px;
 	padding: 0 15px;
 	margin: 0 auto;
+
+	@media screen and (max-width: 1440px) {
+		padding: 0 20px;
+	}
+
+	@media screen and (max-width: 576px) {
+		padding: 0 15px;
+	}
 }
 
 .logo {
 	width: 140px;
 	height: 22px;
-	margin-left: 10px;
+/* 	margin-left: 10px; */
 	display: block;
 	text-decoration: none;
 	background: url('../images/dest/logo.svg') no-repeat;
