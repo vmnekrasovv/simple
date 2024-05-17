@@ -39,11 +39,13 @@
 	&.active:before {
 		transform: rotate(45deg);
 		top: 9px;
+		background-color: #eee;
 	}
 
 	&.active:after {
 		transform: rotate(-45deg);
 		bottom: 9px;
+		background-color: #eee;
 	}
 
 	&.active span {
