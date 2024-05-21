@@ -1,0 +1,52 @@
+.s3 {
+	
+	padding: 90px 0;
+	background: #ebebeb;
+
+	@media screen and (max-width: 1200px) {
+		padding: 60px 0;
+	}
+
+	.brands {
+		display: flex;
+		gap: 30px;
+
+		@media screen and (max-width: 1200px) {
+			width: 50%;
+			margin: 0 auto;
+			flex-wrap: wrap;
+		}
+
+		@media screen and (max-width: 576px) {
+			width: 100%;
+		}
+	}
+
+	.brand {
+		width: calc(25% - 15px);
+		height: 135px;
+		background-color: #ccc;
+
+		@media screen and (max-width: 1200px) {
+			width: calc(50% - 15px);
+		}
+
+		@media screen and (max-width: 768px) {
+			width: 100%;
+		}
+
+		@media screen and (max-width: 576px) {
+			width: calc(50% - 15px);
+		}
+
+		@media screen and (max-width: 420px) {
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		@media screen and (max-width: 420px) {
+			width: calc(80%);
+			margin: 0 auto;
+		}
+	}
+}
